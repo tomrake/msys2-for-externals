@@ -1,0 +1,7 @@
+* msys2-for-externals
+
+The purpose of this system is to add the msys2 library path to the cffi:*foreign-library-directories*.
+
+This allow many of the msys2 dlls to be found by common lisp cffi "glue" code on windows.
+
+The location of the msys2 distribution and which msys2 enviroment to use are my personal choice.
